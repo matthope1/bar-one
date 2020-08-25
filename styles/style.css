@@ -234,3 +234,55 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+img {
+  width: 100%;
+}
+
+.big-heading {
+  font-size: 261.4px;
+  font-family: 'Tulpen One', cursive;
+  text-align: center;
+  letter-spacing: 2.4px;
+}
+
+.sub-heading {
+  font-size: 83.2px;
+  font-family: 'Chathura', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 94.7px;
+  letter-spacing: 2.2px;
+}
+
+.medium-heading {
+  font-size: 68px;
+  font-family: 'Chathura', sans-serif;
+  font-weight: bold;
+  line-height: 58px;
+  letter-spacing: 2.2px;
+}
+
+.body-text {
+  font-size: 39px;
+  font-family: 'Chathura', sans-serif;
+  line-height: 30px;
+  letter-spacing: 1.9px;
+}
+
+nav {
+  font-size: 38px;
+  font-family: 'Chathura', sans-serif;
+  line-height: 30px;
+  letter-spacing: 1.9px;
+}
