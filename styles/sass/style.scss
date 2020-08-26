@@ -32,10 +32,11 @@ html {
 
 body {
     background-color: $black;
+    color: white;
 }
 
 .container { 
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     max-width: 1080px;
 }
@@ -45,20 +46,21 @@ img {
 }
 
 .big-heading {
-    font-size: 261.4px;
+    font-size: 200.4px;
     font-family: $secondary;
-    text-align: center;
+    text-align: left;
     letter-spacing: 2.4px;
     color: $dustyOrange;
     font-weight: 100;
     margin: 0;
+    z-index: 2;
 }
 
 .sub-heading {
     font-size: 83.2px;
     font-family: $primary;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     line-height: 94.7px;
     letter-spacing: 2.2px;
     margin: 0;
@@ -86,7 +88,8 @@ nav {
     line-height: 30px;
     letter-spacing: 1.9px;
     width: 60%;
-    margin: auto;
+    margin: 0 auto 100px auto;
+
 }
 
 header {
@@ -94,7 +97,8 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50vh;
+    height: 60vh;
+    position: relative;
 
     padding-top: 30px;
 
@@ -102,7 +106,6 @@ header {
         display: flex;
         flex-basis: 50%;
         justify-content: space-between;
-        border: solid;
     }
 }
 
@@ -122,6 +125,13 @@ a {
     text-transform: uppercase;
 }
 
+i {
+    color: white;
+    background-color: $rustRed;
+    padding: 10px;
+    border-radius: 25px;
+}
+
 
 .mini-logo {
     font-family: $secondary;
@@ -136,6 +146,24 @@ a {
 
 .heading-container {
     border: solid;
+    border-color: white;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 5;
+}
+
+.header-box {
+    background: url("../../assets/bar-final-assets/header-box.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 
