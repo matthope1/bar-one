@@ -339,9 +339,10 @@ a {
 
 i {
   color: white;
-  background-color: #BF2603;
-  padding: 10px;
-  border-radius: 25px;
+}
+
+.fa-circle {
+  color: #BF2603;
 }
 
 .mini-logo {
