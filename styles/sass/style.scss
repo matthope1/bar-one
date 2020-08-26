@@ -48,7 +48,7 @@ img {
 .big-heading {
     font-size: 200.4px;
     font-family: $secondary;
-    text-align: left;
+    // text-align: left;
     letter-spacing: 2.4px;
     color: $dustyOrange;
     font-weight: 100;
@@ -60,10 +60,11 @@ img {
     font-size: 83.2px;
     font-family: $primary;
     font-weight: bold;
-    text-align: left;
+    // text-align: left;
     line-height: 94.7px;
     letter-spacing: 2.2px;
     margin: 0;
+    margin-top: -70px;
     color: $offWhite;
 }
 
@@ -88,7 +89,7 @@ nav {
     line-height: 30px;
     letter-spacing: 1.9px;
     width: 60%;
-    margin: 0 auto 100px auto;
+    margin: 0 auto 205px auto;
 
 }
 
@@ -97,11 +98,10 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 60vh;
+    height: 550px;
     position: relative;
-
     padding-top: 30px;
-
+    margin-bottom: 150px;
     ul {
         display: flex;
         flex-basis: 50%;
@@ -145,12 +145,15 @@ i {
 
 
 .heading-container {
-    border: solid;
-    border-color: white;
-    width: 50%;
-    margin: 0 auto;
     position: relative;
     z-index: 5;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.heading-container div {
+    text-align: left;
 }
 
 .header-box {
@@ -158,11 +161,11 @@ i {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 300px;
+    height: 75%;
     width: 50%;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: -100px;
     z-index: 1;
 }
 
