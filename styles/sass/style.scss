@@ -11,6 +11,7 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 // font-family: 'Chathura', sans-serif;
 // font-family: 'Tulpen One', cursive;
 
+// color variables
 
 $offWhite: #FFFFFF;
 $rustRed: #BF2603;
@@ -18,8 +19,19 @@ $dustyOrange: #FF8327;
 $black: #111010;
 $darkRed: #220303;
 
+// font variables
+
+$primary: 'Chathura', sans-serif;
+$secondary: 'Tulpen One', cursive;
+
+//styles
+
 html {
     font-size: 62.5%;
+}
+
+body {
+    background-color: $black;
 }
 
 .container { 
@@ -34,23 +46,28 @@ img {
 
 .big-heading {
     font-size: 261.4px;
-    font-family: 'Tulpen One', cursive;
+    font-family: $secondary;
     text-align: center;
     letter-spacing: 2.4px;
+    color: $dustyOrange;
+    font-weight: 100;
+    margin: 0;
 }
 
 .sub-heading {
     font-size: 83.2px;
-    font-family: 'Chathura', sans-serif;
+    font-family: $primary;
     font-weight: bold;
     text-align: center;
     line-height: 94.7px;
     letter-spacing: 2.2px;
+    margin: 0;
+    color: $offWhite;
 }
 
 .medium-heading {
     font-size: 68px;
-    font-family: 'Chathura', sans-serif;
+    font-family: $primary;
     font-weight: bold;
     line-height: 58px;
     letter-spacing: 2.2px;
@@ -58,28 +75,68 @@ img {
 
 .body-text {
     font-size: 39px;
-    font-family: 'Chathura', sans-serif;
+    font-family: $primary;
     line-height: 30px;
     letter-spacing: 1.9px;
 }
 
 nav {
     font-size: 38px;
-    font-family: 'Chathura', sans-serif;
+    font-family: $primary;
     line-height: 30px;
     letter-spacing: 1.9px;
+    width: 60%;
+    margin: auto;
+}
+
+header {
+    background: url(../../assets/bar-final-assets/home-image-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+
+    padding-top: 30px;
+
+    ul {
+        display: flex;
+        flex-basis: 50%;
+        justify-content: space-between;
+        border: solid;
+    }
+}
+
+li {
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
 }
 
 
+.mini-logo {
+    font-family: $secondary;
+    text-transform: none;
+    font-size: 45px;
+}
+
+.current-page {
+    color: $dustyOrange;
+}
 
 
-
-
-
-
-
-
-
+.heading-container {
+    border: solid;
+}
 
 
 
