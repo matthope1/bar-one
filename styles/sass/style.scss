@@ -38,7 +38,7 @@ body {
 .container { 
     width: 90%;
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 1580px;
 }
 
 img {
@@ -133,7 +133,6 @@ i {
     color: $rustRed;
 }
 
-
 .mini-logo {
     font-family: $secondary;
     text-transform: none;
@@ -144,17 +143,15 @@ i {
     color: $dustyOrange;
 }
 
-
 .heading-container {
     position: relative;
     z-index: 5;
     width: 40%;
     margin: 0 auto;
     text-align: center;
-}
-
-.heading-container div {
-    text-align: left;
+    div {
+        text-align: left;
+    }
 }
 
 .header-box {
@@ -169,6 +166,63 @@ i {
     bottom: -100px;
     z-index: 1;
 }
+
+.icons {
+    padding-bottom: 70px;
+
+    div.container{
+        display: flex;
+        flex-wrap: wrap;
+
+        div.box {
+            width: 50%;
+            display: flex;    
+            margin-bottom: 30px;
+        }
+
+        div.inner-box {
+            width: 80%;
+        }
+
+        span {
+            width: 10%;
+            margin-top: 10px;
+            margin: 10px 10px 0 0;
+        }
+
+        h2,
+        p {
+            margin: 0;
+        }
+    }
+}
+
+.grid {
+    background-color: $darkRed;
+}
+
+.banner {
+    background-image: url(../../assets/bar-final-assets/banner-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50%;
+}
+
+
+footer {
+    background-color: #2C2C2C;
+    text-align: center;
+    p {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
 
 
 
