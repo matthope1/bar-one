@@ -282,18 +282,48 @@ button {
     // position: absolute;
 // }
 .events {
+    padding: 100px 0;
     div.container {
         display: flex;
+
+
+    }
+
+    .side-text {
+        width: 60%;
+    }
+
+    .img-wrap {
+        background-color: $dustyOrange;
+        margin-right: 10%;
+        width: 30%;
+    }
+
+    img {
+        width:100%;
+        height: 100%;
+        position: relative;
+        top: -15px;
+        left: 15px;
+    }
+
+}
+
+.info,
+.events {
+    h2 {
+        color: $dustyOrange;
+    }
+
+    p {
+        margin: 20px 0;
     }
 }
 
 .info {
-    margin-top: 850px;
-    margin: 850px auto 80px;
+    // margin-top: 850px;
+    margin: 950px auto 80px auto;
     text-align: center;
-    h2 {
-         color: $dustyOrange;
-    }
 }
 
 
