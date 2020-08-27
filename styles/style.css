@@ -351,7 +351,7 @@ button {
   background-color: #BF2603;
   color: white;
   font-family: "Tulpen One", cursive;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .fa-circle {
@@ -430,6 +430,16 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: absolute;
+}
+
+.grid img {
+  position: relative;
+}
+
+.grid button {
+  height: 50px;
+  width: 120px;
 }
 
 .grid-box {
@@ -461,8 +471,33 @@ button {
           flex-direction: row-reverse;
 }
 
-.box-two {
+.box-one div {
+  padding-right: 90px;
+}
+
+.box-one img {
+  top: -30px;
+}
+
+.box-two p {
+  text-align: left;
+}
+
+.box-two .btn-wrap {
   text-align: right;
+}
+
+.box-two h2,
+.box-two button {
+  text-align: right;
+}
+
+.box-two div {
+  padding-left: 90px;
+}
+
+.box-two img {
+  bottom: -30px;
 }
 
 .banner {

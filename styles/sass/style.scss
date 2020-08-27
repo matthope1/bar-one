@@ -139,7 +139,7 @@ button {
     background-color: $rustRed;
     color: white;
     font-family: $secondary;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .fa-circle {
@@ -209,6 +209,16 @@ button {
     background-color: $darkRed;
     display: flex;
     flex-wrap: wrap;
+    position: absolute;
+
+    img {
+        position: relative;
+    }
+
+    button {
+        height: 50px;
+        width: 120px;
+    }
 
 }
 
@@ -232,11 +242,45 @@ button {
 
 .box-one {
     flex-direction: row-reverse;
+    div {
+        padding-right: 90px
+    }
+
+    img {
+        top: -30px;
+        // width: 100%;
+    }
 }
 
+
 .box-two {
-    text-align: right;
+    p {
+        text-align: left;
+    }
+
+    .btn-wrap {
+        text-align: right;
+    }
+
+    h2,
+    button {
+        text-align: right;
+    }
+    
+    div {
+        padding-left: 90px;
+    }
+
+    img {
+        bottom: -30px;
+    }
 }
+
+
+// .img-wrap {
+    // background-color: $dustyOrange;
+    // position: absolute;
+// }
 
 .banner {
     background-image: url(../../assets/bar-final-assets/banner-image.jpg);
