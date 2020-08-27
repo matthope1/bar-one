@@ -327,6 +327,21 @@ button {
 }
 
 
+.gallery {
+    background-color: $darkRed;
+        padding: 50px 0;
+    img {
+        width: calc((100% - 100px) / 3)
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+
 
 footer {
     background-color: #2C2C2C;
@@ -335,6 +350,8 @@ footer {
         margin: 0;
     }
 }
+
+
 
 
 // media queries

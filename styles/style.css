@@ -543,6 +543,24 @@ button {
   text-align: center;
 }
 
+.gallery {
+  background-color: #220303;
+  padding: 50px 0;
+}
+
+.gallery img {
+  width: calc((100% - 100px) / 3);
+}
+
+.gallery .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 footer {
   background-color: #2C2C2C;
   text-align: center;
