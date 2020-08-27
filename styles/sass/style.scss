@@ -129,6 +129,19 @@ i {
     color: white;
 }
 
+h2,
+p {
+    margin: 0;
+}
+
+button {
+    border: none;
+    background-color: $rustRed;
+    color: white;
+    font-family: $secondary;
+    font-size: 20px;
+}
+
 .fa-circle {
     color: $rustRed;
 }
@@ -189,16 +202,18 @@ i {
             margin-top: 10px;
             margin: 10px 10px 0 0;
         }
-
-        h2,
-        p {
-            margin: 0;
-        }
     }
 }
 
 .grid {
     background-color: $darkRed;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid-box {
+    display: flex;
 }
 
 .banner {
@@ -219,9 +234,19 @@ footer {
 }
 
 
+// media queries
 
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+}
 
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+}
 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
 
 
 
