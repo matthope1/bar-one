@@ -214,6 +214,28 @@ button {
 
 .grid-box {
     display: flex;
+    justify-content: space-between;
+
+    img,
+    div {
+        width: 42.5%;
+    }
+
+    div {
+        margin-top: 70px;
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+.box-one {
+    flex-direction: row-reverse;
+}
+
+.box-two {
+    text-align: right;
 }
 
 .banner {

@@ -436,6 +436,33 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.grid-box img,
+.grid-box div {
+  width: 42.5%;
+}
+
+.grid-box div {
+  margin-top: 70px;
+}
+
+.grid-box p {
+  margin-bottom: 20px;
+}
+
+.box-one {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.box-two {
+  text-align: right;
 }
 
 .banner {
