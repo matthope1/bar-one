@@ -281,14 +281,21 @@ button {
     // background-color: $dustyOrange;
     // position: absolute;
 // }
-
-.banner {
-    background-image: url(../../assets/bar-final-assets/banner-image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 50%;
+.events {
+    div.container {
+        display: flex;
+    }
 }
+
+.info {
+    margin-top: 850px;
+    margin: 850px auto 80px;
+    text-align: center;
+    h2 {
+         color: $dustyOrange;
+    }
+}
+
 
 
 footer {

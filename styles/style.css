@@ -500,12 +500,20 @@ button {
   bottom: -30px;
 }
 
-.banner {
-  background-image: url(../../assets/bar-final-assets/banner-image.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 50%;
+.events div.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info {
+  margin-top: 850px;
+  margin: 850px auto 80px;
+  text-align: center;
+}
+
+.info h2 {
+  color: #FF8327;
 }
 
 footer {
