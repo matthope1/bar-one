@@ -245,7 +245,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   max-width: 1580px;
 }
@@ -445,7 +445,7 @@ button {
 
 .grid button {
   height: 50px;
-  width: 120px;
+  width: 150px;
 }
 
 .grid .img-wrap {
@@ -500,8 +500,7 @@ button {
   text-align: right;
 }
 
-.box-two h2,
-.box-two button {
+.box-two h2 {
   text-align: right;
 }
 
@@ -531,13 +530,13 @@ button {
 }
 
 .events .side-text {
-  width: 60%;
+  width: 70%;
 }
 
 .events .img-wrap {
   background-color: #FF8327;
   margin-right: 10%;
-  width: 30%;
+  width: 20%;
 }
 
 .events img {
@@ -558,14 +557,23 @@ button {
   margin: 20px 0;
 }
 
+.info button,
+.events button {
+  width: 200px;
+}
+
 .info {
-  margin: 950px auto 80px auto;
+  margin: 850px auto 80px auto;
   text-align: center;
+}
+
+.info .container {
+  width: 70%;
 }
 
 .gallery {
   background-color: #220303;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 .gallery img {
