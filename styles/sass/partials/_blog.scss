@@ -1,13 +1,30 @@
 
 // blog page
+
+// color variables
+$offWhite: #FFFFFF;
+$rustRed: #BF2603;
+$dustyOrange: #FF8327;
+$black: #111010;
+$darkRed: #220303;
+
+//font variables
 $primary: 'Chathura', sans-serif;
 $secondary: 'Tulpen One', cursive;
 
 .blog {
 
     header {
-
         background-image: url(../../assets/bar-final-assets/blog-header-1.jpg);
+
+        padding-top: 30px;
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
     }
 
     h1 {
@@ -23,5 +40,69 @@ $secondary: 'Tulpen One', cursive;
         font-size: 40px;
     }
 
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    span {
+        color: $dustyOrange;
+    }
+
+    // main {
+    //     width: 65%;
+    // }
+
+    .main-content > div {
+        width: 50%;
+    }
+
+    aside {
+        width: 30%;
+    }
+    
+    .menu {
+        border-bottom: 4px solid $dustyOrange; 
+        border-left: 4px solid $dustyOrange;
+    }
+
+    .comment-container {
+        display: flex;
+
+        div {
+            width: 80%;
+        }
+
+        img {
+            width: 20%;
+        }
+    }
+
+    textarea[name=comment] {
+        resize: none;
+        display: block;
+
+        border: 1px solid $dustyOrange;
+        margin-top: 20px;
+    }
+
+    .comment-form {
+        input {
+            margin-top: 20px;
+            border-right: none;
+            border-top: none;
+            border-left: none; 
+            border-bottom: 1px solid $dustyOrange;
+        }
+    }
+
+    .comment-form * {
+        background-color: $black;
+    }
+
 
 }
+
+
+
+

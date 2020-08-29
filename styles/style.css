@@ -237,6 +237,15 @@ html {
 
 .blog header {
   background-image: url(../../assets/bar-final-assets/blog-header-1.jpg);
+  padding-top: 30px;
+}
+
+.blog header li {
+  list-style: none;
+}
+
+.blog header a {
+  text-decoration: none;
 }
 
 .blog h1 {
@@ -250,6 +259,65 @@ html {
 
 .blog h2 {
   font-size: 40px;
+}
+
+.blog .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog span {
+  color: #FF8327;
+}
+
+.blog .main-content > div {
+  width: 50%;
+}
+
+.blog aside {
+  width: 30%;
+}
+
+.blog .menu {
+  border-bottom: 4px solid #FF8327;
+  border-left: 4px solid #FF8327;
+}
+
+.blog .comment-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog .comment-container div {
+  width: 80%;
+}
+
+.blog .comment-container img {
+  width: 20%;
+}
+
+.blog textarea[name=comment] {
+  resize: none;
+  display: block;
+  border: 1px solid #FF8327;
+  margin-top: 20px;
+}
+
+.blog .comment-form input {
+  margin-top: 20px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #FF8327;
+}
+
+.blog .comment-form * {
+  background-color: #111010;
 }
 
 .contact {
@@ -325,9 +393,6 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   height: 550px;
-  position: relative;
-  padding-top: 30px;
-  margin-bottom: 150px;
 }
 
 header ul {
@@ -347,10 +412,20 @@ header .sub-heading {
 
 .home {
   background: url(../../assets/bar-final-assets/home-image-1.jpg);
+  position: relative;
+  padding-top: 30px;
+  margin-bottom: 150px;
+}
+
+.home li {
+  list-style: none;
+}
+
+.home a {
+  text-decoration: none;
 }
 
 li {
-  list-style: none;
   padding: 0;
 }
 
@@ -360,7 +435,6 @@ ul {
 }
 
 a {
-  text-decoration: none;
   color: white;
   text-transform: uppercase;
 }

@@ -46,7 +46,6 @@ img {
 .big-heading {
     font-size: 200.4px;
     font-family: $secondary;
-    // text-align: left;
     letter-spacing: 2.4px;
     color: $dustyOrange;
     font-weight: 100;
@@ -58,7 +57,6 @@ img {
     font-size: 83.2px;
     font-family: $primary;
     font-weight: bold;
-    // text-align: left;
     line-height: 94.7px;
     letter-spacing: 2.2px;
     margin: 0;
@@ -96,10 +94,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     height: 550px;
-    position: relative;
-    padding-top: 30px;
-    margin-bottom: 150px;
-    ul {
+        ul {
         display: flex;
         flex-basis: 50%;
         justify-content: space-between;
@@ -112,10 +107,21 @@ header {
 
 .home {
     background: url(../../assets/bar-final-assets/home-image-1.jpg);
+    position: relative;
+    padding-top: 30px;
+    margin-bottom: 150px;
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
 }
 
 li {
-    list-style: none;
     padding: 0;
 }
 
@@ -125,7 +131,6 @@ ul {
 }
 
 a {
-    text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
