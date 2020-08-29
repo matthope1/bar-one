@@ -1,0 +1,28 @@
+
+// blog page
+$primary: 'Chathura', sans-serif;
+$secondary: 'Tulpen One', cursive;
+
+.blog {
+
+    header {
+
+        background-image: url(../../assets/bar-final-assets/blog-header-1.jpg);
+    }
+
+    h1 {
+        font-size: 90px;
+        border: solid;
+    }
+
+    h1,
+    h2 {
+        font-family: $primary;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+
+}

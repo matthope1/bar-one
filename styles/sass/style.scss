@@ -8,11 +8,11 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
-// font-family: 'Chathura', sans-serif;
-// font-family: 'Tulpen One', cursive;
+// import partials
+@import "partials/blog";
+@import "partials/contact";
 
 // color variables
-
 $offWhite: #FFFFFF;
 $rustRed: #BF2603;
 $dustyOrange: #FF8327;
@@ -20,12 +20,10 @@ $black: #111010;
 $darkRed: #220303;
 
 // font variables
-
 $primary: 'Chathura', sans-serif;
 $secondary: 'Tulpen One', cursive;
 
 //styles
-
 html {
     font-size: 62.5%;
 }
@@ -94,7 +92,6 @@ nav {
 }
 
 header {
-    background: url(../../assets/bar-final-assets/home-image-1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -111,6 +108,10 @@ header {
     .sub-heading {
         margin-left: 6px;
     }
+}
+
+.home {
+    background: url(../../assets/bar-final-assets/home-image-1.jpg);
 }
 
 li {
@@ -368,6 +369,8 @@ footer {
         margin: 0;
     }
 }
+
+
 
 
 // media queries

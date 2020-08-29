@@ -235,6 +235,28 @@ html {
   overflow: hidden;
 }
 
+.blog header {
+  background-image: url(../../assets/bar-final-assets/blog-header-1.jpg);
+}
+
+.blog h1 {
+  font-size: 90px;
+  border: solid;
+}
+
+.blog h1,
+.blog h2 {
+  font-family: "Chathura", sans-serif;
+}
+
+.blog h2 {
+  font-size: 40px;
+}
+
+.contact {
+  background-image: url(../../assets/bar-final-assets/contact-header-1.jpg);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -300,7 +322,6 @@ nav {
 }
 
 header {
-  background: url(../../assets/bar-final-assets/home-image-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -323,6 +344,10 @@ header ul {
 
 header .sub-heading {
   margin-left: 6px;
+}
+
+.home {
+  background: url(../../assets/bar-final-assets/home-image-1.jpg);
 }
 
 li {
