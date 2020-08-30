@@ -33,16 +33,6 @@ $secondary: 'Tulpen One', cursive;
         ul {
             list-style: none;
         }
-
-        ul li::before {
-            content: "\2022";
-            color: $rustRed;
-            font-weight: bold;
-            display: inline-block; 
-            width: 1em;
-            margin-left: -1em;
-        }
-
         
     }
 
@@ -64,7 +54,7 @@ $secondary: 'Tulpen One', cursive;
         justify-content: space-between;
 
         ul {
-            list-style-type: disc;
+            list-style-type: none;
         }
 
         li {
@@ -72,8 +62,15 @@ $secondary: 'Tulpen One', cursive;
             font-size: 30px;
             font-family: $primary;
         }
-
         
+        ul li::before {
+            content: "\2022";
+            color: $rustRed;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
 
     }
 
@@ -110,7 +107,7 @@ $secondary: 'Tulpen One', cursive;
 
         img {
             position: relative;
-            left: 15px;
+            left: 0;
             z-index: 1;
             width: 100%;
             line-height: 1;
@@ -127,6 +124,9 @@ $secondary: 'Tulpen One', cursive;
         span {
             font-size: 30px;
         }
+
+
+
     }
     
     main {
@@ -138,7 +138,7 @@ $secondary: 'Tulpen One', cursive;
         border-bottom: 4px solid $dustyOrange; 
         border-left: 4px solid $dustyOrange;
 
-        padding: 100px 100px;
+        padding: 50px 70px 70px 100px;
         p {
             margin: 10px;
             font-size: 33px;
@@ -147,7 +147,7 @@ $secondary: 'Tulpen One', cursive;
     }
 
     .comments {
-        padding: 50px 100px;
+        padding: 50px 70px 0 100px;
         h2 {
             margin-bottom: 20px;
         }
@@ -165,16 +165,18 @@ $secondary: 'Tulpen One', cursive;
         img {
             height: 70px;
             width: 70px;
+            margin-top: 10px;
         }
 
         span {
-            font-size: 22px;
+            font-size: 38px;
             font-family: $primary;
         }
         
         p {
-            font-size: 27px;
+            font-size: 33px;
             font-family: $primary;
+            line-height: 23px;
         }
     }
 
@@ -189,7 +191,7 @@ $secondary: 'Tulpen One', cursive;
 
     .comment-form {
         // border: solid;
-        padding: 50px 100px;
+        padding: 0 70px 70px 100px;
         input,
         textarea {
             background-color: $black;
@@ -207,6 +209,8 @@ $secondary: 'Tulpen One', cursive;
     
     button {
         background-color: $rustRed;
+        width: 100%;
+        margin-top: 30px;
     }
 
 

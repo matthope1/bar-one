@@ -252,15 +252,6 @@ html {
   list-style: none;
 }
 
-.blog header ul li::before {
-  content: "\2022";
-  color: #BF2603;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
-
 .blog h1 {
   font-size: 90px;
 }
@@ -284,13 +275,22 @@ html {
 }
 
 .blog .main-content ul {
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 .blog .main-content li {
   margin-left: 40px;
   font-size: 30px;
   font-family: "Chathura", sans-serif;
+}
+
+.blog .main-content ul li::before {
+  content: "\2022";
+  color: #BF2603;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 .blog span {
@@ -321,7 +321,7 @@ html {
 
 .blog aside img {
   position: relative;
-  left: 15px;
+  left: 0;
   z-index: 1;
   width: 100%;
   line-height: 1;
@@ -346,7 +346,7 @@ html {
 .blog .menu {
   border-bottom: 4px solid #FF8327;
   border-left: 4px solid #FF8327;
-  padding: 100px 100px;
+  padding: 50px 70px 70px 100px;
 }
 
 .blog .menu p {
@@ -356,7 +356,7 @@ html {
 }
 
 .blog .comments {
-  padding: 50px 100px;
+  padding: 50px 70px 0 100px;
 }
 
 .blog .comments h2 {
@@ -378,16 +378,18 @@ html {
 .blog .comment-container img {
   height: 70px;
   width: 70px;
+  margin-top: 10px;
 }
 
 .blog .comment-container span {
-  font-size: 22px;
+  font-size: 38px;
   font-family: "Chathura", sans-serif;
 }
 
 .blog .comment-container p {
-  font-size: 27px;
+  font-size: 33px;
   font-family: "Chathura", sans-serif;
+  line-height: 23px;
 }
 
 .blog textarea[name=comment] {
@@ -399,7 +401,7 @@ html {
 }
 
 .blog .comment-form {
-  padding: 50px 100px;
+  padding: 0 70px 70px 100px;
 }
 
 .blog .comment-form input,
@@ -418,6 +420,8 @@ html {
 
 .blog button {
   background-color: #BF2603;
+  width: 100%;
+  margin-top: 30px;
 }
 
 .contact {
