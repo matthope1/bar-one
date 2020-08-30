@@ -187,6 +187,10 @@ $secondary: 'Tulpen One', cursive;
         border: 1px solid $dustyOrange;
         margin-top: 20px;
         width: 100%;
+
+        font-family: $primary;
+        color: white;
+        font-size: 22px;
     }
 
     .comment-form {
@@ -203,16 +207,32 @@ $secondary: 'Tulpen One', cursive;
             border-top: none;
             border-left: none; 
             border-bottom: 1px solid $dustyOrange;
-            width: 40%;
+            display: block;
+            width: 100%;
         }
     }
     
+
+    .input-container {
+        display: flex;
+        justify-content: space-between;
+        div {
+            width: 45%;
+        }
+
+        label {
+            margin-left: 10px;
+            font-family: $primary;
+            font-size: 30px;
+        }
+    }
+
     button {
         background-color: $rustRed;
         width: 100%;
         margin-top: 30px;
+        font-size: 22px;
     }
-
 
 }
 
