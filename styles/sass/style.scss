@@ -30,7 +30,7 @@ html {
 
 body {
     background-color: $black;
-    color: white;
+    color: $offWhite;
 }
 
 .container { 
@@ -223,7 +223,6 @@ button {
     position: absolute;
 
     img {
-        position: relative;
         width: 100%;
         height: 100%;
 
@@ -234,12 +233,6 @@ button {
         width: 150px;
     }
 
-    .img-wrap {
-        background-color: $dustyOrange;
-        margin-left: 17px;
-        position: relative;
-        // top: -10px;
-    }
 }
 
 .grid-box {

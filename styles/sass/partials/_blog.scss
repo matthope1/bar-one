@@ -84,11 +84,11 @@ $secondary: 'Tulpen One', cursive;
     // }
 
     .main-content > div {
-        width: 60%;
+        width: 65%;
     }
 
     aside {
-        width: 30%;
+        width: 25%;
         margin-top: 100px;
         
         div {
@@ -110,8 +110,6 @@ $secondary: 'Tulpen One', cursive;
             left: 0;
             z-index: 1;
             width: 100%;
-            line-height: 1;
-            // display: block;
         }
 
         p {
@@ -124,25 +122,42 @@ $secondary: 'Tulpen One', cursive;
         span {
             font-size: 30px;
         }
-
-
-
     }
     
     main {
         font-size: 22px;
         font-family: $primary;
+
+        .img-wrap {
+            position: relative;
+            top: -150px;
+            background-color: $dustyOrange;
+            width: 96%;
+        }
+
+        img {
+            position: relative;
+            top: -10px;
+            // right: -4%;
+            right: -20px;
+            width: 105%;
+            height: 105%;
+        }
     }
 
     .menu {
         border-bottom: 4px solid $dustyOrange; 
         border-left: 4px solid $dustyOrange;
-
         padding: 50px 70px 70px 100px;
+        margin-top: -150px;
         p {
-            margin: 10px;
+            margin: 20px 0;
             font-size: 33px;
             line-height: 30px;
+        }
+
+        h2 {
+            margin-bottom: -30px;
         }
     }
 
@@ -183,6 +198,7 @@ $secondary: 'Tulpen One', cursive;
     textarea[name=comment] {
         resize: none;
         display: block;
+        padding: 20px 20px;
 
         border: 1px solid $dustyOrange;
         margin-top: 20px;
