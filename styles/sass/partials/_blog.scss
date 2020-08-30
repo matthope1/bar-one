@@ -16,8 +16,8 @@ $secondary: 'Tulpen One', cursive;
 
     header {
         background-image: url(../../assets/bar-final-assets/blog-header-1.jpg);
-
         padding-top: 30px;
+
         li {
             list-style: none;
         }
@@ -25,10 +25,6 @@ $secondary: 'Tulpen One', cursive;
         a {
             text-decoration: none;
         }
-
-        // li {
-        //     list-style-type: disc;
-        // }
 
         ul {
             list-style: none;
@@ -194,60 +190,11 @@ $secondary: 'Tulpen One', cursive;
             line-height: 23px;
         }
     }
-
-    textarea[name=comment] {
-        resize: none;
-        display: block;
-        padding: 20px 20px;
-
-        border: 1px solid $dustyOrange;
-        margin-top: 20px;
-        width: 100%;
-
-        font-family: $primary;
-        color: white;
-        font-size: 22px;
-    }
-
-    .comment-form {
-        // border: solid;
-        padding: 0 70px 70px 100px;
-        input,
-        textarea {
-            background-color: $black;
-        }
-
-        input {
-            margin-top: 20px;
-            border-right: none;
-            border-top: none;
-            border-left: none; 
-            border-bottom: 1px solid $dustyOrange;
-            display: block;
-            width: 100%;
-        }
-    }
-    
-
-    .input-container {
-        display: flex;
-        justify-content: space-between;
-        div {
-            width: 45%;
-        }
-
-        label {
-            margin-left: 10px;
-            font-family: $primary;
-            font-size: 30px;
-        }
-    }
-
     button {
         background-color: $rustRed;
         width: 100%;
         margin-top: 30px;
-        font-size: 22px;
+        font-size: 27px;
     }
 
 }

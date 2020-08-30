@@ -411,38 +411,50 @@ html {
   line-height: 23px;
 }
 
-.blog textarea[name=comment] {
-  resize: none;
-  display: block;
-  padding: 20px 20px;
-  border: 1px solid #FF8327;
-  margin-top: 20px;
+.blog button {
+  background-color: #BF2603;
   width: 100%;
+  margin-top: 30px;
+  font-size: 27px;
+}
+
+.contact header {
+  background-image: url(../../assets/bar-final-assets/contact-header-1.jpg);
+  padding-top: 30px;
+}
+
+.contact li {
+  list-style: none;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact ul {
+  list-style: none;
+}
+
+.contact h1 {
   font-family: "Chathura", sans-serif;
-  color: white;
-  font-size: 22px;
+  font-size: 80px;
 }
 
-.blog .comment-form {
-  padding: 0 70px 70px 100px;
+.contact div.icons {
+  padding: 0;
 }
 
-.blog .comment-form input,
-.blog .comment-form textarea {
-  background-color: #111010;
+.contact .contact-info {
+  font-size: 20px;
+  font-family: "Chathura", sans-serif;
 }
 
-.blog .comment-form input {
-  margin-top: 20px;
-  border-right: none;
-  border-top: none;
-  border-left: none;
-  border-bottom: 1px solid #FF8327;
-  display: block;
-  width: 100%;
+.contact .comment-form,
+.contact .comment-form * {
+  background-color: #220303;
 }
 
-.blog .input-container {
+.contact .main-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -451,25 +463,8 @@ html {
           justify-content: space-between;
 }
 
-.blog .input-container div {
-  width: 45%;
-}
-
-.blog .input-container label {
-  margin-left: 10px;
-  font-family: "Chathura", sans-serif;
-  font-size: 30px;
-}
-
-.blog button {
-  background-color: #BF2603;
-  width: 100%;
-  margin-top: 30px;
-  font-size: 22px;
-}
-
-.contact {
-  background-image: url(../../assets/bar-final-assets/contact-header-1.jpg);
+.contact .main-content section {
+  width: 50%;
 }
 
 html {
@@ -479,6 +474,8 @@ html {
 body {
   background-color: #111010;
   color: #FFFFFF;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .container {
@@ -835,6 +832,56 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+textarea[name=comment] {
+  resize: none;
+  display: block;
+  padding: 20px 20px;
+  border: 1px solid #FF8327;
+  margin-top: 20px;
+  width: 100%;
+  font-family: "Chathura", sans-serif;
+  color: white;
+  font-size: 28px;
+}
+
+.comment-form {
+  padding: 0 70px 70px 100px;
+}
+
+.comment-form input,
+.comment-form textarea {
+  background-color: #111010;
+}
+
+.comment-form input {
+  margin-top: 20px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #FF8327;
+  display: block;
+  width: 100%;
+}
+
+.input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.input-container div {
+  width: 45%;
+}
+
+.input-container label {
+  margin-left: 10px;
+  font-family: "Chathura", sans-serif;
+  font-size: 30px;
 }
 
 /* Portrait tablet and small desktops */

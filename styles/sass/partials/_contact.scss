@@ -1,6 +1,61 @@
 
 // contact page
 
+// color variables
+$offWhite: #FFFFFF;
+$rustRed: #BF2603;
+$dustyOrange: #FF8327;
+$black: #111010;
+$darkRed: #220303;
+
+//font variables
+$primary: 'Chathura', sans-serif;
+$secondary: 'Tulpen One', cursive;
+
 .contact {
-    background-image: url(../../assets/bar-final-assets/contact-header-1.jpg);
+    header {
+        background-image: url(../../assets/bar-final-assets/contact-header-1.jpg);
+        padding-top: 30px;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    h1 {
+        font-family: $primary;
+        font-size: 80px;
+    }
+
+    div.icons {
+        padding: 0;
+    }
+
+    .contact-info {
+        font-size: 20px;
+        font-family: $primary;
+    }
+
+    .comment-form,
+    .comment-form * {
+        background-color: $darkRed;
+    }
+
+    .main-content {
+        display: flex;
+        justify-content: space-between;
+
+        section {
+            width: 50%;
+        }
+    }
+
 }
