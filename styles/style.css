@@ -311,7 +311,8 @@ html {
   background-color: #220303;
   margin-left: 20%;
   width: 90%;
-  height: 700px;
+  height: 40%;
+  max-height: 700px;
   padding-top: 350px;
   padding-left: 30px;
   position: relative;
@@ -354,18 +355,39 @@ html {
   line-height: 30px;
 }
 
+.blog .comments {
+  padding: 50px 100px;
+}
+
+.blog .comments h2 {
+  margin-bottom: 20px;
+}
+
 .blog .comment-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 50px;
 }
 
 .blog .comment-container div {
   width: 80%;
+  margin-left: 5%;
 }
 
 .blog .comment-container img {
-  width: 20%;
+  height: 70px;
+  width: 70px;
+}
+
+.blog .comment-container span {
+  font-size: 22px;
+  font-family: "Chathura", sans-serif;
+}
+
+.blog .comment-container p {
+  font-size: 27px;
+  font-family: "Chathura", sans-serif;
 }
 
 .blog textarea[name=comment] {
@@ -374,6 +396,10 @@ html {
   border: 1px solid #FF8327;
   margin-top: 20px;
   width: 100%;
+}
+
+.blog .comment-form {
+  padding: 50px 100px;
 }
 
 .blog .comment-form input,
