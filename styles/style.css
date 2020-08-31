@@ -279,18 +279,13 @@ html {
 }
 
 .blog .main-content li {
-  margin-left: 40px;
   font-size: 30px;
   font-family: "Chathura", sans-serif;
 }
 
-.blog .main-content ul li::before {
-  content: "\2022";
-  color: #BF2603;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
+.blog .main-content .list-bullet {
+  font-size: 7px;
+  margin-right: 10px;
 }
 
 .blog span {
@@ -432,6 +427,8 @@ html {
 /* Landscape phones and down */
 .contact {
   /* Portrait tablet and small desktops */
+  /* Landscape phone to portrait tablet */
+  /* Landscape phones and down */
 }
 
 .contact header {
@@ -564,8 +561,6 @@ html {
   }
 }
 
-/* Landscape phone to portrait tablet */
-/* Landscape phones and down */
 html {
   font-size: 62.5%;
 }

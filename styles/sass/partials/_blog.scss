@@ -54,19 +54,24 @@ $secondary: 'Tulpen One', cursive;
         }
 
         li {
-            margin-left: 40px;
             font-size: 30px;
             font-family: $primary;
         }
         
-        ul li::before {
-            content: "\2022";
-            color: $rustRed;
-            font-weight: bold;
-            display: inline-block; 
-            width: 1em;
-            margin-left: -1em;
+        .list-bullet {
+            font-size: 7px;
+            margin-right: 10px;
         }
+        
+        // ul li::before {
+        //     content: "\2022";
+        //     color: $rustRed;
+        //     font-weight: bold;
+        //     display: inline-block; 
+        //     width: 1em;
+        //     margin-left: -1em;
+        //     transform: scale(7);
+        // }
 
     }
 
