@@ -429,6 +429,12 @@ html {
 }
 
 @media (max-width: 940px) {
+  .blog header {
+    height: 500px;
+  }
+  .blog header h1 {
+    text-align: center;
+  }
   .blog .main-content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -442,6 +448,8 @@ html {
     width: 100%;
     position: static;
     margin: 0;
+    background-color: #220303;
+    padding-top: 50px;
   }
   .blog aside div {
     margin: 0;
@@ -450,19 +458,33 @@ html {
     padding: 60px;
     text-align: center;
   }
+  .blog aside img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
   .blog main .img-wrap {
     position: static;
     top: 0;
     background-color: #FF8327;
     width: 100%;
+    padding: 20px 0;
   }
   .blog main img {
     position: static;
-    width: 100%;
+    width: 80%;
     height: 100%;
+    display: block;
+    margin: 0 auto;
   }
   .blog .menu {
     margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog input {
+    width: 100%;
   }
 }
 
