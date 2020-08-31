@@ -442,15 +442,33 @@ html {
 
 .contact div.icons {
   padding: 0;
+  margin-top: 150px;
+  font-size: 25px;
+}
+
+.contact i {
+  margin-right: 15px;
 }
 
 .contact .contact-info {
-  font-size: 20px;
+  font-size: 40px;
   font-family: "Chathura", sans-serif;
+  margin-right: 80px;
 }
 
-.contact .comment-form,
-.contact .comment-form * {
+.contact .comment-form {
+  background-color: #220303;
+}
+
+.contact input {
+  border-bottom-color: #FFFFFF;
+}
+
+.contact .input-container * {
+  background-color: #220303;
+}
+
+.contact text-area {
   background-color: #220303;
 }
 
@@ -463,8 +481,12 @@ html {
           justify-content: space-between;
 }
 
-.contact .main-content section {
-  width: 50%;
+.contact .contact-info {
+  width: 30%;
+}
+
+.contact .comment-form {
+  width: 70%;
 }
 
 html {

@@ -37,15 +37,34 @@ $secondary: 'Tulpen One', cursive;
 
     div.icons {
         padding: 0;
+        margin-top: 150px;
+        font-size: 25px;
+    }
+
+    i {
+        margin-right: 15px;
     }
 
     .contact-info {
-        font-size: 20px;
+        font-size: 40px;
         font-family: $primary;
+        margin-right: 80px;
+
     }
 
-    .comment-form,
-    .comment-form * {
+    .comment-form {
+        background-color: $darkRed;
+    }
+
+    input {
+        border-bottom-color: $offWhite;
+    } 
+
+    .input-container * {
+        background-color: $darkRed;
+    }
+
+    text-area {
         background-color: $darkRed;
     }
 
@@ -53,9 +72,15 @@ $secondary: 'Tulpen One', cursive;
         display: flex;
         justify-content: space-between;
 
-        section {
-            width: 50%;
-        }
+        
+    }
+
+    .contact-info {
+        width: 30%;
+    }
+
+    .comment-form {
+        width: 70%;
     }
 
 }
