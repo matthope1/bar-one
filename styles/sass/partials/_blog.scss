@@ -62,17 +62,7 @@ $secondary: 'Tulpen One', cursive;
             font-size: 7px;
             margin-right: 10px;
         }
-        
-        // ul li::before {
-        //     content: "\2022";
-        //     color: $rustRed;
-        //     font-weight: bold;
-        //     display: inline-block; 
-        //     width: 1em;
-        //     margin-left: -1em;
-        //     transform: scale(7);
-        // }
-
+       
     }
 
     span {
@@ -212,19 +202,59 @@ $secondary: 'Tulpen One', cursive;
         font-size: 27px;
     }
 
-}
+    /* Portrait tablet and small desktops */
+    @media (max-width: 940px) {
+       
+        .main-content {
+            flex-direction: column;
+        }
 
+        .main-content > div {
+            width: 100%;
+        }
 
+        aside {
+            width: 100%;
+            position: static;
+            margin: 0;
+        } 
 
+        aside div {
+            margin: 0;
+            width: 100%;
+            position: static;
+            padding: 60px;
+            text-align: center;
+        }
 
-/* Portrait tablet and small desktops */
-@media (max-width: 940px) {
-}
+        main {
 
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-}
+            .img-wrap {
+                position: static;
+                top: 0;
+                background-color: $dustyOrange;
+                width: 100%;
+            }
 
-/* Landscape phones and down */
-@media (max-width: 480px) {
+            img {
+                position: static;
+                // right: -4%;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .menu {
+            margin: 0;
+        }
+
+    }
+
+    /* Landscape phone to portrait tablet */
+    @media (max-width: 768px) {
+    }
+
+    /* Landscape phones and down */
+    @media (max-width: 480px) {
+    }
 }

@@ -235,6 +235,12 @@ html {
   overflow: hidden;
 }
 
+.blog {
+  /* Portrait tablet and small desktops */
+  /* Landscape phone to portrait tablet */
+  /* Landscape phones and down */
+}
+
 .blog header {
   background-image: url(../../assets/bar-final-assets/blog-header-1.jpg);
   padding-top: 30px;
@@ -422,9 +428,44 @@ html {
   font-size: 27px;
 }
 
-/* Portrait tablet and small desktops */
-/* Landscape phone to portrait tablet */
-/* Landscape phones and down */
+@media (max-width: 940px) {
+  .blog .main-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blog .main-content > div {
+    width: 100%;
+  }
+  .blog aside {
+    width: 100%;
+    position: static;
+    margin: 0;
+  }
+  .blog aside div {
+    margin: 0;
+    width: 100%;
+    position: static;
+    padding: 60px;
+    text-align: center;
+  }
+  .blog main .img-wrap {
+    position: static;
+    top: 0;
+    background-color: #FF8327;
+    width: 100%;
+  }
+  .blog main img {
+    position: static;
+    width: 100%;
+    height: 100%;
+  }
+  .blog .menu {
+    margin: 0;
+  }
+}
+
 .contact {
   /* Portrait tablet and small desktops */
   /* Landscape phone to portrait tablet */
