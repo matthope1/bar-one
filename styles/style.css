@@ -428,6 +428,14 @@ html {
   font-size: 27px;
 }
 
+@media (max-width: 1370px) {
+  .blog aside div {
+    width: 100%;
+    max-height: 1000px;
+    height: 710px;
+  }
+}
+
 @media (max-width: 940px) {
   .blog header {
     height: 500px;
@@ -1094,6 +1102,9 @@ input {
     text-align: center;
     padding: 70px 10px;
     margin: 0;
+  }
+  .box-one .side-text {
+    margin-bottom: 50px;
   }
   .box-two p,
   .box-two .btn-wrap,

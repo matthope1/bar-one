@@ -468,6 +468,12 @@ input {
         }
     }
 
+    .box-one {
+        .side-text {
+            margin-bottom: 50px;
+        }
+    }
+
     
 
     .box-two {
@@ -538,10 +544,11 @@ input {
         div.container {
             flex-direction: column;
             div.box {
-            width: 100%;
+                width: 100%;
             }
         }
 
+        
         
     }
 }
