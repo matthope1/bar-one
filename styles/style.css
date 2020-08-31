@@ -751,11 +751,17 @@ button {
 .grid img {
   width: 100%;
   height: 100%;
+  position: relative;
 }
 
 .grid button {
   height: 50px;
   width: 150px;
+}
+
+.grid .img-wrap {
+  position: relative;
+  background-color: #FF8327;
 }
 
 .grid-box {

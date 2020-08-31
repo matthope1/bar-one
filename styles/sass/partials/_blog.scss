@@ -75,10 +75,6 @@ $secondary: 'Tulpen One', cursive;
         font-family: $primary;
     }
 
-    // main {
-    //     width: 65%;
-    // }
-
     .main-content > div {
         width: 65%;
     }
@@ -146,6 +142,7 @@ $secondary: 'Tulpen One', cursive;
         border-left: 4px solid $dustyOrange;
         padding: 50px 70px 70px 100px;
         margin-top: -150px;
+
         p {
             margin: 20px 0;
             font-size: 33px;
@@ -175,6 +172,7 @@ $secondary: 'Tulpen One', cursive;
         }
 
     }
+
     .comment-container {
         display: flex;
         margin-bottom: 50px;
@@ -201,6 +199,7 @@ $secondary: 'Tulpen One', cursive;
             line-height: 23px;
         }
     }
+
     button {
         background-color: $rustRed;
         width: 100%;

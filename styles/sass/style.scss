@@ -212,7 +212,6 @@ button {
 
         span {
             width: 10%;
-            // margin-top: 10px;
             margin: 10px 10px 0 0;
         }
     }
@@ -227,12 +226,17 @@ button {
     img {
         width: 100%;
         height: 100%;
-
+        position: relative;
     }
 
     button {
         height: 50px;
         width: 150px;
+    }
+
+    .img-wrap {
+        position: relative;
+        background-color: $dustyOrange;
     }
 
 }
@@ -340,7 +344,6 @@ button {
 }
 
 .info {
-    // margin-top: 850px;
     margin: 850px auto 80px auto;
     text-align: center;
 
@@ -387,7 +390,6 @@ textarea[name=comment] {
 }
 
 .comment-form {
-    // border: solid;
     padding: 0 70px 70px 70px;
    
     input {
