@@ -427,6 +427,9 @@ html {
   font-size: 27px;
 }
 
+/* Portrait tablet and small desktops */
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
 .contact header {
   background-image: url(../../assets/bar-final-assets/contact-header-1.jpg);
   padding-top: 30px;
@@ -535,6 +538,25 @@ html {
   line-height: 50px;
 }
 
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  .main-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .comment-form {
+    margin: 0;
+    position: static;
+  }
+  .comment-outer {
+    position: static;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+/* Landscape phones and down */
 html {
   font-size: 62.5%;
 }
@@ -1072,3 +1094,11 @@ input {
 }
 
 /* Landscape phones and down */
+@media (max-width: 480px) {
+  .big-heading {
+    font-size: calc(80px - 2rem);
+  }
+  .sub-heading {
+    font-size: calc(40px - 1rem);
+  }
+}

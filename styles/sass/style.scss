@@ -548,6 +548,14 @@ input {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+
+    .big-heading {
+        font-size: calc(80px - 2rem);
+    }
+
+    .sub-heading {
+        font-size: calc(40px - 1rem);
+    }
 }
 
 
