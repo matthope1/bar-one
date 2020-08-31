@@ -285,7 +285,6 @@ button {
     h2 {
         text-align: right;
     }
-
     
     img {
         bottom: 17px;
@@ -439,10 +438,112 @@ input {
 
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
+
+    .big-heading {
+        font-size: 150px;
+    }
+
+    .grid-box {
+        flex-direction: column;
+
+        div {
+            width: 100%;
+        }
+    }
+
+    .box-one,
+    .box-two {
+
+        img,
+        .img-wrap {
+            right: 0;
+            left: 0;
+
+        }
+
+        .side-text {
+            text-align: center;
+            padding: 70px 10px;
+            margin: 0;
+        }
+    }
+
+    
+
+    .box-two {
+        p,
+        .btn-wrap,
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .events {
+
+        div.container {
+
+            flex-direction: column;
+        }
+
+        .side-text {
+            width: 100%;
+        }
+        
+        .img-wrap {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+    
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+    ul {
+        flex-direction: column;
+        text-align: center;
+        .mini-logo {
+            display: none;
+        }
+    }
+
+    nav {
+        margin-bottom: 0;
+    }
+
+    .big-heading {
+        font-size: 100px;
+        margin-top: 100px;
+        word-wrap: none;
+    }
+
+    .sub-heading{
+        font-size: 60px;
+
+        margin-top: -40px;
+    }
+
+    .gallery {
+        div.container {
+            flex-direction: column;
+        }
+
+        img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .icons {
+        div.container {
+            flex-direction: column;
+            div.box {
+            width: 100%;
+            }
+        }
+
+        
+    }
 }
 
 /* Landscape phones and down */
