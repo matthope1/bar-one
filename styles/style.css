@@ -382,6 +382,15 @@ html {
   margin-bottom: 20px;
 }
 
+.blog .comment-form input,
+.blog .comment-form textarea {
+  background-color: #111010;
+}
+
+.blog .comment-form input {
+  border-bottom-color: #FF8327;
+}
+
 .blog .comment-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -442,7 +451,7 @@ html {
 
 .contact div.icons {
   padding: 0;
-  margin-top: 150px;
+  margin-top: 100px;
   font-size: 25px;
 }
 
@@ -451,13 +460,20 @@ html {
 }
 
 .contact .contact-info {
-  font-size: 40px;
+  font-size: 35px;
   font-family: "Chathura", sans-serif;
   margin-right: 80px;
+  width: 20%;
+  line-height: 1;
+}
+
+.contact .contact-info .info-email {
+  margin: 20px 0;
 }
 
 .contact .comment-form {
   background-color: #220303;
+  padding-top: 50px;
 }
 
 .contact input {
@@ -481,12 +497,42 @@ html {
           justify-content: space-between;
 }
 
-.contact .contact-info {
-  width: 30%;
+.contact .comment-form {
+  width: 100%;
+  margin-right: -5%;
+  position: relative;
+  top: -20px;
+  left: -20px;
 }
 
-.contact .comment-form {
-  width: 70%;
+.contact .comment-form input,
+.contact .comment-form textarea {
+  background-color: #220303;
+  margin: 20px 0;
+}
+
+.contact .comment-form input {
+  border-bottom-color: white;
+}
+
+.contact .comment-form textarea {
+  border-color: white;
+}
+
+.contact .comment-outer {
+  background-color: #FF8327;
+  width: 80%;
+  position: relative;
+  top: -140px;
+}
+
+.contact button {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.contact footer p {
+  line-height: 50px;
 }
 
 html {
@@ -869,12 +915,7 @@ textarea[name=comment] {
 }
 
 .comment-form {
-  padding: 0 70px 70px 100px;
-}
-
-.comment-form input,
-.comment-form textarea {
-  background-color: #111010;
+  padding: 0 70px 70px 70px;
 }
 
 .comment-form input {
@@ -882,9 +923,36 @@ textarea[name=comment] {
   border-right: none;
   border-top: none;
   border-left: none;
-  border-bottom: 1px solid #FF8327;
+  border-bottom: 1px solid;
   display: block;
   width: 100%;
+}
+
+input {
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  padding: 10px 10px;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  color: white;
+  opacity: 1;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
 }
 
 .input-container {

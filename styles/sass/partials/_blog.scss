@@ -164,6 +164,17 @@ $secondary: 'Tulpen One', cursive;
         }
     }
 
+    .comment-form {
+        input,
+        textarea {
+            background-color: $black;
+        }
+
+        input {
+            border-bottom-color: $dustyOrange;
+        }
+
+    }
     .comment-container {
         display: flex;
         margin-bottom: 50px;

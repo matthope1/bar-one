@@ -388,21 +388,29 @@ textarea[name=comment] {
 
 .comment-form {
     // border: solid;
-    padding: 0 70px 70px 100px;
-    input,
-    textarea {
-        background-color: $black;
-    }
-
+    padding: 0 70px 70px 70px;
+   
     input {
         margin-top: 20px;
         border-right: none;
         border-top: none;
         border-left: none; 
-        border-bottom: 1px solid $dustyOrange;
+        border-bottom: 1px solid;
         display: block;
         width: 100%;
     }
+}
+
+input {
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
 }
 
 
