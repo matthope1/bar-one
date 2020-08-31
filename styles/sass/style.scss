@@ -31,7 +31,7 @@ html {
 body {
     background-color: $black;
     color: $offWhite;
-    max-width: 1400px;
+    max-width: 1800px;
     margin: 0 auto;
 }
 
@@ -221,7 +221,7 @@ button {
     background-color: $darkRed;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
+    // position: absolute;
 
     img {
         width: 100%;
@@ -344,7 +344,8 @@ button {
 }
 
 .info {
-    margin: 850px auto 80px auto;
+    margin: 100px auto 80px auto;
+
     text-align: center;
 
     .container {

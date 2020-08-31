@@ -542,7 +542,7 @@ html {
 body {
   background-color: #111010;
   color: #FFFFFF;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 
@@ -745,7 +745,6 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  position: absolute;
 }
 
 .grid img {
@@ -873,7 +872,7 @@ button {
 }
 
 .info {
-  margin: 850px auto 80px auto;
+  margin: 100px auto 80px auto;
   text-align: center;
 }
 
