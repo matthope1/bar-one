@@ -118,28 +118,35 @@ $secondary: 'Tulpen One', cursive;
             line-height: 50px;
         }
     }
+    /* Portrait tablet and small desktops */
+    @media (max-width: 940px) {
+    
+        .main-content {
+            flex-direction: column-reverse;
+        }
+    
+        .comment-form {
+            margin: 0;
+            // position: static;
+        }
+    
+        .comment-outer {
+            position: static;
+            width: 100%;
+        }
 
+        .contact-info {
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            padding-bottom: 50px;
+        }
+    }
 }
 
 
 
 
-/* Portrait tablet and small desktops */
-@media (max-width: 940px) {
-
-    .main-content {
-        flex-direction: column-reverse;
-    }
-
-    .comment-form {
-        margin: 0;
-        position: static;
-    }
-
-    .comment-outer {
-        position: static;
-    }
-}
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
