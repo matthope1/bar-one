@@ -1080,6 +1080,7 @@ input {
 @media (max-width: 940px) {
   .big-heading {
     font-size: 150px;
+    margin-bottom: 10px;
   }
   .grid-box {
     -webkit-box-orient: vertical;
