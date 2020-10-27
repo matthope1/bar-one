@@ -206,12 +206,13 @@ button {
         }
 
         div.inner-box {
-            width: 80%;
+            width: 70%;
             padding-top: 10px;
         }
 
         span {
             width: 10%;
+            min-width: 50px;
             margin: 10px 10px 0 0;
         }
     }
