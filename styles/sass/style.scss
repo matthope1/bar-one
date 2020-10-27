@@ -103,7 +103,7 @@ header {
     }
 
     .sub-heading {
-        margin-left: 6px;
+        margin-left: 4px;
     }
 }
 
@@ -518,10 +518,14 @@ input {
         margin-bottom: 0;
     }
 
+    .big-heading,
+    .sub-heading {
+        text-align: center;
+    }
+
     .big-heading {
         font-size: 100px;
         margin-top: 100px;
-        word-wrap: none;
     }
 
     .sub-heading{
@@ -548,22 +552,18 @@ input {
                 width: 100%;
             }
         }
+    }
 
-        
-        
+    .heading-container {
+        width: 70%;
+        text-align: center;
     }
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
 
-    .big-heading {
-        font-size: calc(80px - 2rem);
-    }
-
-    .sub-heading {
-        font-size: calc(40px - 1rem);
-    }
+    
 }
 
 
